@@ -26,7 +26,7 @@ const TermsPage: React.FC = () => {
           
           <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
             <p className="text-blue-800">
-              Please read these Terms and Conditions carefully before using InvoiceFlow. 
+              Please read these Terms and Conditions carefully before using ZapBill. 
               By accessing or using our service, you agree to be bound by these terms.
             </p>
           </div>
@@ -43,7 +43,7 @@ const TermsPage: React.FC = () => {
               </div>
               <div className="prose prose-gray max-w-none">
                 <p className="text-gray-700 leading-relaxed">
-                  By accessing and using InvoiceFlow ("the Service"), you accept and agree to be bound by the terms and provision of this agreement. 
+                  By accessing and using ZapBill ("the Service"), you accept and agree to be bound by the terms and provision of this agreement. 
                   If you do not agree to abide by the above, please do not use this service.
                 </p>
                 <p className="text-gray-700 leading-relaxed">
@@ -61,13 +61,13 @@ const TermsPage: React.FC = () => {
               </div>
               <div className="prose prose-gray max-w-none">
                 <p className="text-gray-700 leading-relaxed">
-                  Permission is granted to temporarily download one copy of InvoiceFlow per device for personal, non-commercial transitory viewing only. 
+                  Permission is granted to temporarily download one copy of ZapBill per device for personal, non-commercial transitory viewing only. 
                   This is the grant of a license, not a transfer of title, and under this license you may not:
                 </p>
                 <ul className="list-disc list-inside text-gray-700 space-y-2 ml-4">
                   <li>modify or copy the materials</li>
                   <li>use the materials for any commercial purpose or for any public display (commercial or non-commercial)</li>
-                  <li>attempt to decompile or reverse engineer any software contained in InvoiceFlow</li>
+                  <li>attempt to decompile or reverse engineer any software contained in ZapBill</li>
                   <li>remove any copyright or other proprietary notations from the materials</li>
                 </ul>
                 <p className="text-gray-700 leading-relaxed">
@@ -187,7 +187,7 @@ const TermsPage: React.FC = () => {
               <h2 className="text-2xl font-bold text-gray-900 mb-4">9. Limitation of Liability</h2>
               <div className="prose prose-gray max-w-none">
                 <p className="text-gray-700 leading-relaxed">
-                  In no event shall InvoiceFlow, nor its directors, employees, partners, agents, suppliers, or affiliates, 
+                  In no event shall ZapBill, nor its directors, employees, partners, agents, suppliers, or affiliates, 
                   be liable for any indirect, incidental, special, consequential, or punitive damages, including without limitation, 
                   loss of profits, data, use, goodwill, or other intangible losses, resulting from your use of the service.
                 </p>
@@ -215,7 +215,7 @@ const TermsPage: React.FC = () => {
                 If you have any questions about these Terms and Conditions, please contact us:
               </p>
               <div className="space-y-2 text-gray-700">
-                <p>Email: legal@invoiceflow.com</p>
+                <p>Email: legal@ZapBill.com</p>
                 <p>Phone: +1 (555) 123-4567</p>
                 <p>Address: 123 Business Street, Suite 100, Business City, BC 12345</p>
               </div>

@@ -17,7 +17,7 @@ const AuthLayout: React.FC<AuthLayoutProps> = ({ children, title, subtitle }) =>
             <div className="bg-white/10 backdrop-blur-sm p-3 rounded-xl mr-4">
               <FileText className="h-8 w-8 text-white" />
             </div>
-            <h1 className="text-2xl font-bold">InvoiceFlow</h1>
+            <h1 className="text-2xl font-bold">ZapBill</h1>
           </div>
           
           <h2 className="text-3xl font-bold mb-6 leading-tight">
@@ -54,7 +54,7 @@ const AuthLayout: React.FC<AuthLayoutProps> = ({ children, title, subtitle }) =>
                 <div className="bg-blue-600 p-2 rounded-xl mr-3">
                   <FileText className="h-6 w-6 text-white" />
                 </div>
-                <h1 className="text-xl font-bold text-gray-900">InvoiceFlow</h1>
+                <h1 className="text-xl font-bold text-gray-900">ZapBill</h1>
               </div>
               <h2 className="text-2xl font-bold text-gray-900 mb-2">{title}</h2>
               <p className="text-gray-600">{subtitle}</p>

@@ -26,7 +26,7 @@ const RefundPolicy: React.FC = () => {
           
           <div className="bg-green-50 border border-green-200 rounded-lg p-4">
             <p className="text-green-800">
-              We want you to be completely satisfied with your purchase. This Refund Policy outlines when and how you can request a refund for InvoiceFlow services.
+              We want you to be completely satisfied with your purchase. This Refund Policy outlines when and how you can request a refund for ZapBill services.
             </p>
           </div>
         </div>
@@ -70,7 +70,7 @@ const RefundPolicy: React.FC = () => {
                   To request a refund, please follow these steps:
                 </p>
                 <ol className="list-decimal list-inside text-gray-700 space-y-2 ml-4 mb-4">
-                  <li>Log in to your InvoiceFlow account</li>
+                  <li>Log in to your ZapBill account</li>
                   <li>Navigate to the Support section</li>
                   <li>Submit a refund request ticket with the subject "Refund Request"</li>
                   <li>Include your order/transaction ID and the reason for your refund request</li>
@@ -131,7 +131,7 @@ const RefundPolicy: React.FC = () => {
                   We understand that special circumstances may arise. In the following cases, we may consider refund requests outside the standard 30-day window:
                 </p>
                 <ul className="list-disc list-inside text-gray-700 space-y-2 ml-4">
-                  <li>Service unavailability or technical issues that significantly impacted your ability to use InvoiceFlow</li>
+                  <li>Service unavailability or technical issues that significantly impacted your ability to use ZapBill</li>
                   <li>Billing errors or duplicate charges</li>
                   <li>Unauthorized transactions (subject to investigation)</li>
                 </ul>
@@ -147,7 +147,7 @@ const RefundPolicy: React.FC = () => {
               <div className="prose prose-gray max-w-none">
                 <p className="text-gray-700 leading-relaxed">
                   We reserve the right to modify this Refund Policy at any time. Changes will be effective immediately upon posting to our website. 
-                  We encourage you to review this Refund Policy periodically for any changes. Your continued use of InvoiceFlow after any changes to the Refund Policy constitutes your acceptance of the updated policy.
+                  We encourage you to review this Refund Policy periodically for any changes. Your continued use of ZapBill after any changes to the Refund Policy constitutes your acceptance of the updated policy.
                 </p>
               </div>
             </section>
@@ -162,7 +162,7 @@ const RefundPolicy: React.FC = () => {
                 If you have any questions about this Refund Policy or would like to request a refund, please contact us:
               </p>
               <div className="space-y-2 text-gray-700">
-                <p><strong>Email:</strong> refunds@invoiceflow.com</p>
+                <p><strong>Email:</strong> refunds@ZapBill.com</p>
                 <p><strong>Phone:</strong> +1 (555) 123-4567</p>
                 <p><strong>Support Ticket:</strong> Log in to your account and submit a support ticket</p>
               </div>

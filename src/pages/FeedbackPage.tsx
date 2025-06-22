@@ -97,12 +97,12 @@ const FeedbackPage: React.FC = () => {
             </div>
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Thank You!</h2>
             <p className="text-gray-600 mb-6 text-lg">
-              Your feedback has been submitted successfully. We appreciate you taking the time to help us improve InvoiceFlow.
+              Your feedback has been submitted successfully. We appreciate you taking the time to help us improve ZapBill.
             </p>
             <div className="bg-purple-50 p-4 rounded-lg mb-6">
               <p className="text-purple-800 font-medium">Your feedback matters!</p>
               <p className="text-purple-700 text-sm mt-1">
-                We read every piece of feedback and use it to make InvoiceFlow better for everyone.
+                We read every piece of feedback and use it to make ZapBill better for everyone.
               </p>
             </div>
             <button
@@ -126,7 +126,7 @@ const FeedbackPage: React.FC = () => {
           </div>
           <h1 className="text-4xl font-bold text-gray-900 mb-4">We Value Your Feedback</h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Help us improve InvoiceFlow by sharing your thoughts, suggestions, and experiences with us.
+            Help us improve ZapBill by sharing your thoughts, suggestions, and experiences with us.
           </p>
         </div>
 
@@ -261,7 +261,7 @@ const FeedbackPage: React.FC = () => {
                         },
                       })}
                       className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent resize-none transition-colors"
-                      placeholder="Share your thoughts about InvoiceFlow. What do you love? What could be better? Any features you'd like to see?"
+                      placeholder="Share your thoughts about ZapBill. What do you love? What could be better? Any features you'd like to see?"
                     />
                   </div>
                   {errors.message && (

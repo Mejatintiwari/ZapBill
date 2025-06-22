@@ -1257,7 +1257,7 @@ const AgencyFeatures: React.FC = () => {
                   className="h-4 w-4 text-purple-600 focus:ring-purple-500 border-gray-300 rounded"
                 />
                 <label htmlFor="hide_branding" className="ml-2 block text-sm text-gray-700">
-                  Hide "Powered by InvoiceFlow" branding
+                  Hide "Powered by ZapBill" branding
                 </label>
               </div>
 

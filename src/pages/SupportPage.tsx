@@ -353,7 +353,7 @@ const SupportPage: React.FC = () => {
               <div className="space-y-3 text-sm text-blue-800">
                 <div className="flex items-center">
                   <Mail className="h-4 w-4 mr-2" />
-                  <span>support@invoiceflow.com</span>
+                  <span>support@ZapBill.com</span>
                 </div>
                 <div className="flex items-center">
                   <Phone className="h-4 w-4 mr-2" />

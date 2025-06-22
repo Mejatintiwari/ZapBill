@@ -26,7 +26,7 @@ const PrivacyPage: React.FC = () => {
           
           <div className="bg-green-50 border border-green-200 rounded-lg p-4">
             <p className="text-green-800">
-              Your privacy is important to us. This Privacy Policy explains how InvoiceFlow collects, uses, and protects your information when you use our service.
+              Your privacy is important to us. This Privacy Policy explains how ZapBill collects, uses, and protects your information when you use our service.
             </p>
           </div>
         </div>
@@ -43,7 +43,7 @@ const PrivacyPage: React.FC = () => {
               <div className="prose prose-gray max-w-none">
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">Personal Information</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  When you create an account with InvoiceFlow, we collect information that identifies you, such as:
+                  When you create an account with ZapBill, we collect information that identifies you, such as:
                 </p>
                 <ul className="list-disc list-inside text-gray-700 space-y-2 ml-4 mb-4">
                   <li>Name and email address</li>
@@ -178,7 +178,7 @@ const PrivacyPage: React.FC = () => {
                   <li><strong>Objection:</strong> Object to processing based on legitimate interests</li>
                 </ul>
                 <p className="text-gray-700 leading-relaxed">
-                  To exercise these rights, please contact us at privacy@invoiceflow.com. We will respond to your request within 30 days.
+                  To exercise these rights, please contact us at privacy@ZapBill.com. We will respond to your request within 30 days.
                 </p>
               </div>
             </section>
@@ -250,10 +250,10 @@ const PrivacyPage: React.FC = () => {
                 If you have any questions about this Privacy Policy or our data practices, please contact us:
               </p>
               <div className="space-y-2 text-gray-700">
-                <p><strong>Email:</strong> privacy@invoiceflow.com</p>
+                <p><strong>Email:</strong> privacy@ZapBill.com</p>
                 <p><strong>Phone:</strong> +1 (555) 123-4567</p>
                 <p><strong>Address:</strong> 123 Business Street, Suite 100, Business City, BC 12345</p>
-                <p><strong>Data Protection Officer:</strong> dpo@invoiceflow.com</p>
+                <p><strong>Data Protection Officer:</strong> dpo@ZapBill.com</p>
               </div>
             </section>
           </div>

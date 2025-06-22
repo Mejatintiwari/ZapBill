@@ -137,5 +137,5 @@ INSERT INTO admin_settings (setting_key, setting_value, description) VALUES
   ('available_currencies', '["USD", "EUR", "GBP", "INR", "JPY", "CAD", "AUD"]', 'Available currencies'),
   ('features_enabled', '{"qr_codes": true, "crypto_payments": true, "recurring_invoices": true}', 'Feature toggles'),
   ('support_email', '"help@getallscripts.com"', 'Support contact email'),
-  ('company_name', '"InvoiceFlow"', 'Company name for branding')
+  ('company_name', '"ZapBill"', 'Company name for branding')
 ON CONFLICT (setting_key) DO NOTHING;

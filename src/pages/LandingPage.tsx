@@ -54,7 +54,7 @@ const LandingPage: React.FC = () => {
     {
       name: "Sarah Johnson",
       role: "Freelance Designer",
-      content: "InvoiceFlow has transformed how I handle billing. I've reduced my invoicing time by 80% and get paid faster than ever.",
+      content: "ZapBill has transformed how I handle billing. I've reduced my invoicing time by 80% and get paid faster than ever.",
       rating: 5
     },
     {
@@ -128,7 +128,7 @@ const LandingPage: React.FC = () => {
           <div className="flex justify-between h-16">
             <div className="flex items-center">
               <FileText className="h-8 w-8 text-blue-600" />
-              <span className="ml-2 text-xl font-bold text-gray-900">InvoiceFlow</span>
+              <span className="ml-2 text-xl font-bold text-gray-900">ZapBill</span>
             </div>
             <div className="hidden md:flex items-center space-x-4">
               <a href="#features" className="px-3 py-2 text-sm font-medium text-gray-700 hover:text-blue-600">Features</a>
@@ -352,7 +352,7 @@ const LandingPage: React.FC = () => {
                 Ready to streamline your invoicing?
               </h2>
               <p className="mt-4 text-lg text-blue-100">
-                Join thousands of freelancers and agencies who have transformed their billing process with InvoiceFlow.
+                Join thousands of freelancers and agencies who have transformed their billing process with ZapBill.
               </p>
               <div className="mt-8 flex flex-col sm:flex-row gap-4">
                 <Link to="/signup" className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-blue-700 bg-white hover:bg-blue-50 md:text-lg">
@@ -398,7 +398,7 @@ const LandingPage: React.FC = () => {
             <div>
               <div className="flex items-center">
                 <FileText className="h-8 w-8 text-blue-400" />
-                <span className="ml-2 text-xl font-bold">InvoiceFlow</span>
+                <span className="ml-2 text-xl font-bold">ZapBill</span>
               </div>
               <p className="mt-4 text-gray-400">
                 Professional invoicing software for freelancers and agencies.
@@ -448,7 +448,7 @@ const LandingPage: React.FC = () => {
           </div>
           <div className="mt-12 border-t border-gray-800 pt-8">
             <p className="text-gray-400 text-sm text-center">
-              &copy; {new Date().getFullYear()} InvoiceFlow. All rights reserved.
+              &copy; {new Date().getFullYear()} ZapBill. All rights reserved.
             </p>
           </div>
         </div>

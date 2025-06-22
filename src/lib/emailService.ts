@@ -44,7 +44,7 @@ export const sendInvoiceEmail = async (emailData: EmailData, userProfile?: any):
     
     // For Agency users with custom email domains, use their branded email
     let fromEmail = DEFAULT_SMTP.auth.user;
-    let fromName = 'InvoiceFlow';
+    let fromName = 'ZapBill';
     let customSignature = '';
     
     if (userProfile?.plan === 'agency') {
@@ -123,7 +123,7 @@ export const sendWelcomeEmail = async (email: string, name: string): Promise<boo
     
     return await sendInvoiceEmail({
       to: email,
-      subject: 'Welcome to InvoiceFlow!',
+      subject: 'Welcome to ZapBill!',
       html: emailTemplate,
     });
   } catch (error) {
@@ -138,7 +138,7 @@ export const sendForgotPasswordEmail = async (email: string, resetLink: string):
     
     return await sendInvoiceEmail({
       to: email,
-      subject: 'Reset Your Password - InvoiceFlow',
+      subject: 'Reset Your Password - ZapBill',
       html: emailTemplate,
     });
   } catch (error) {
@@ -153,7 +153,7 @@ export const generateWelcomeEmailTemplate = (name: string): string => {
     <html>
     <head>
       <meta charset="utf-8">
-      <title>Welcome to InvoiceFlow</title>
+      <title>Welcome to ZapBill</title>
       <style>
         body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
         .container { max-width: 600px; margin: 0 auto; padding: 20px; }
@@ -167,11 +167,11 @@ export const generateWelcomeEmailTemplate = (name: string): string => {
     <body>
       <div class="container">
         <div class="header">
-          <h1>Welcome to InvoiceFlow!</h1>
+          <h1>Welcome to ZapBill!</h1>
         </div>
         <div class="content">
           <p>Hi ${name},</p>
-          <p>Welcome to InvoiceFlow! We're excited to have you on board. You now have access to our powerful invoicing platform that will help streamline your business operations.</p>
+          <p>Welcome to ZapBill! We're excited to have you on board. You now have access to our powerful invoicing platform that will help streamline your business operations.</p>
           
           <div class="feature">
             <h3>🚀 Get Started</h3>
@@ -193,7 +193,7 @@ export const generateWelcomeEmailTemplate = (name: string): string => {
           </p>
           
           <p>If you have any questions, feel free to reach out to our support team.</p>
-          <p>Best regards,<br>The InvoiceFlow Team</p>
+          <p>Best regards,<br>The ZapBill Team</p>
         </div>
         <div class="footer">
           <p>This is an automated email. Please do not reply to this message.</p>
@@ -227,7 +227,7 @@ export const generateForgotPasswordEmailTemplate = (resetLink: string): string =
           <h1>Reset Your Password</h1>
         </div>
         <div class="content">
-          <p>You requested to reset your password for your InvoiceFlow account.</p>
+          <p>You requested to reset your password for your ZapBill account.</p>
           
           <p style="text-align: center;">
             <a href="${resetLink}" class="button">Reset Password</a>
@@ -245,7 +245,7 @@ export const generateForgotPasswordEmailTemplate = (resetLink: string): string =
           <p>If the button doesn't work, copy and paste this link into your browser:</p>
           <p style="word-break: break-all; background: #f0f0f0; padding: 10px; border-radius: 5px;">${resetLink}</p>
           
-          <p>Best regards,<br>The InvoiceFlow Team</p>
+          <p>Best regards,<br>The ZapBill Team</p>
         </div>
         <div class="footer">
           <p>This is an automated email. Please do not reply to this message.</p>
@@ -370,7 +370,7 @@ export const generateInvoiceEmailTemplate = (
           <p style="margin-top: 30px;">Best regards,<br><strong>${companyName}</strong></p>
         </div>
         <div class="footer">
-          <p>This is an automated email from InvoiceFlow. Please do not reply to this message.</p>
+          <p>This is an automated email from ZapBill. Please do not reply to this message.</p>
           <p style="margin: 5px 0;">For support, contact us at help@getallscripts.com</p>
         </div>
       </div>
@@ -414,7 +414,7 @@ export const sendTeamInvitation = async (
           </div>
           <div class="content">
             <p>Hi ${inviteeName},</p>
-            <p>${inviterName} has invited you to join the team at ${companyName} on InvoiceFlow.</p>
+            <p>${inviterName} has invited you to join the team at ${companyName} on ZapBill.</p>
             
             <div class="role">
               <h3>Your Role: ${role}</h3>
@@ -434,7 +434,7 @@ export const sendTeamInvitation = async (
             <p>If you don't have an account yet, you'll need to create one using this email address.</p>
             <p>If you have any questions, please contact ${inviterName} directly.</p>
             
-            <p>Best regards,<br>The InvoiceFlow Team</p>
+            <p>Best regards,<br>The ZapBill Team</p>
           </div>
           <div class="footer">
             <p>This is an automated email. Please do not reply to this message.</p>
@@ -446,7 +446,7 @@ export const sendTeamInvitation = async (
     
     return await sendInvoiceEmail({
       to: inviteeEmail,
-      subject: `${inviterName} invited you to join their team on InvoiceFlow`,
+      subject: `${inviterName} invited you to join their team on ZapBill`,
       html: emailTemplate,
     });
   } catch (error) {
